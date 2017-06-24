@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorButton">#E43F3F</color>
+    <color name="colorButtonText">#FFFFFF</color>
+    <color name="redbackground">#CC1D1D</color>
+    <color name="colorBackground">#708090</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="barApp">#006400</color>
+    <color name="colorRed">#E43F3F</color>
+    <color name="colorbony">#CC1D1D</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>

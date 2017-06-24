@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bkgrnd"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_weight="11"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        >
+
+        <GridView
+            android:id="@+id/favGridview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:numColumns="auto_fit"
+            android:columnWidth="200dp"
+            android:verticalSpacing="1dp"
+            android:horizontalSpacing="1dp"
+            android:stretchMode="columnWidth"
+            android:gravity="center">
+        </GridView>
+    </ScrollView>
+    <Button
+            android:text="@string/main"
+            android:id="@+id/main_fav"
+            android:textColor="@color/colorButtonText"
+            android:background="@color/barApp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    <com.google.android.gms.ads.AdView
+        android:background="@color/barApp"
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" >
+    </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+

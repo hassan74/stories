@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">أحسن ألقصص</string>
+    <string name="back">العوده للخلف</string>
+    <string name="main">الصفحه الرئيسيه</string>
+    <string name="prev">التالي</string>
+    <string name="next">السابق</string>
+    <string name="search_title">بحث</string>
+    <string name="search_hint">ادخل اسم القصه</string>
+    <string name="get_fav">القصص المفضله</string>
+    <string name="title_activity_testscroll">testscroll</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9415435553573233/9883256707</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-9415435553573233/7987721103</string>
+</resources>
